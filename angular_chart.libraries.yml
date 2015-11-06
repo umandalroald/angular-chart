@@ -1,0 +1,9 @@
+drupal.angular_chart:
+  version: VERSION
+  js:
+    js/angular.js: {scope : footer}
+    js/angular-route.js: {}
+
+  css:
+    theme:
+      css/angular-chart.css: {scope : header}

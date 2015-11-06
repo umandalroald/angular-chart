@@ -1,0 +1,33 @@
+<?php
+
+function angular_chart_theme($existing, $type, $theme, $path) {
+  return array(
+    'angular_chart' => array(
+      'render element' => 'elements',
+    ),
+  );
+}
+
+function angular_chart_page_attachments(array &$attachments) {
+ /**
+ global $base_url;
+
+ $attachments['#attached']['html_head'][] = [
+    // The data.
+    [
+      // The HTML tag to add, in this case a <script> tag.
+      '#tag' => 'script',
+      '#attributes' => [
+        'src' => $base_url . '/' . drupal_get_path('module', 'angular_chart') . '/js',
+      ],
+    ],
+  ];
+  */
+}
+
+/**
+ * Implements hook_page_alter().
+ */
+function angular_chart_page_alter(&$page) {
+  //$page['#attached']['js'][] = drupal_get_path('module', 'angular_chart') . '/js/angular-route.js';
+}
