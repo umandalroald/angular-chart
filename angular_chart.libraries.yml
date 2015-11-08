@@ -1,9 +1,12 @@
 drupal.angular_chart:
   version: VERSION
   js:
-    js/angular.js: {scope : footer}
+    js/angular.js: {}
     js/angular-route.js: {}
+    js/Chart.min.js: {}
+    js/angular-chart.min.js: {}
+    js/script.js: {}
 
   css:
     theme:
-      css/angular-chart.css: {scope : header}
+      css/angular-chart.css: {}

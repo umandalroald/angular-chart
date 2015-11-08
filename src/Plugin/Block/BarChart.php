@@ -4,19 +4,19 @@ namespace Drupal\angular_chart\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 /**
- * Render Line Chart block
+ * Render Bar Chart block.
  *
  * @Block(
- *   id = "angular_chart_block",
- *   admin_label = @Translation("Line Chart"),
+ *   id = "bar_chart_block",
+ *   admin_label = @Translation("Bar Chart"),
  *   category = @Translation("Blocks")
  * )
  */
-class AngularChartBlock extends BlockBase {
+class BarChart extends BlockBase {
 
   public function build() {
     return array(
-      '#theme' => 'angular_chart',
+      '#theme' => 'bar_chart',
     );
   }
 }
