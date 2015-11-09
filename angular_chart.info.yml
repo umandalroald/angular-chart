@@ -1,9 +1,7 @@
 name: Angular chart
 type: module
-description: 'Angular chart.'
-# core: 8.x
+description: 'Render data in chart and graph with angularjs and chart.js'
 configure: angular_chart.settings_form
-# Information added by Drupal.org packaging script on 2015-08-08
 version: '8.x-0.1'
 core: '8.x'
 project: 'angular_chart'
